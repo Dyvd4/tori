@@ -12,7 +12,10 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
+    "classnames": "^2.5.1",
+    "dayjs": "^1.11.19",
     "preact": "^10.27.2",
+    "tailwind-merge": "^3.4.0",
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
