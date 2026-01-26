@@ -1,0 +1,24 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+pnpm-lock.yaml
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# misc
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
