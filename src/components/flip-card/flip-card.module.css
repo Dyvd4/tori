@@ -2,7 +2,6 @@
 
 .flip-card {
   @apply h-100 w-2xs;
-  background-color: transparent;
   perspective: 1000px;
 }
 
@@ -15,6 +14,7 @@
   transition: transform 0.6s;
   transform-style: preserve-3d;
   box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
+  background-color: var(--background-color);
 }
 
 .flip-card-front,
