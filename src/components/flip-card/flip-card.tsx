@@ -4,8 +4,8 @@ import { cn } from "../../utils";
 import classes from "./flip-card.module.css";
 
 type FlipCardProps = {
-  front: (clickHandler: () => void) => ComponentChildren;
-  back: (clickHandler: () => void) => ComponentChildren;
+  front: (toggleCard: () => void) => ComponentChildren;
+  back: (toggleCard: () => void) => ComponentChildren;
   mode?: "hover" | "click" | "custom-click";
 } & ComponentPropsWithRef<"div">;
 
