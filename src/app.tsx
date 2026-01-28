@@ -124,7 +124,7 @@ const CALENDAR_DATA: ValentineCalendarProps["data"] = [
       type: QuestionType.Personal,
       text: "Will you be my valentine?",
     },
-    answer: "Yes (only possible answer).",
+    answer: "Answer me on WhatsApp (yes is the only possible answer).",
   },
 ].map((d, idx) => ({ ...d, date: new Date(2026, 1, idx + 1) }));
 
