@@ -13,7 +13,7 @@ const CALENDAR_DATA: ValentineCalendarProps["data"] = [
       text: "Beschreibe die Person, die links von dir sitzt in 5 Wörtern.",
     },
     answer:
-      "Also wenn du links bist ;), dann: Schlau, Ambitioniert, Loyal, Süß, Frech",
+      "Also wenn du links bist 😉, dann: Schlau, Ambitioniert, Loyal, Süß, Frech",
   },
   {
     date: new Date(),
@@ -22,7 +22,7 @@ const CALENDAR_DATA: ValentineCalendarProps["data"] = [
       text: "Über welche Dinge interressiert sich die Person rechts neben dir am meisten?",
     },
     answer:
-      "Also wenn du doch rechts bist ;), dann versuche ich es mal 😬: Motorräder, Autos, deine Fische und Hundis, nicht Schule, deine Freunde und mich (ofc 😏).",
+      "Also wenn du doch rechts bist 😉, dann versuche ich es mal 😬: Motorräder, Autos, deine Fische und Hundis, nicht Schule, deine Freunde und mich (ofc 😏).",
   },
   {
     date: new Date(),
@@ -31,7 +31,7 @@ const CALENDAR_DATA: ValentineCalendarProps["data"] = [
       text: "Welches Getränk bestellt die Person links neben dir am häufigsten im Restaurant?",
     },
     answer:
-      "Wenn du doch wieder links bist ;), dann folgendes: Dein superduper Kokos-Vanille-Shake (gibt's im Restaurant save nicht though).",
+      "Wenn du doch wieder links bist 😉, dann folgendes: Dein superduper Kokos-Vanille-Shake (gibt's im Restaurant save nicht though).",
   },
   {
     date: new Date(),
@@ -131,19 +131,21 @@ const CALENDAR_DATA: ValentineCalendarProps["data"] = [
 export function App() {
   return (
     <div className="flex flex-col gap-8">
-      <img src="/tori.webp" />
-      <div>
+      <div className={"overflow-hidden rounded-xl border"}>
+        <img className="h-full w-full object-cover" src="/tori.jpg" />
+      </div>
+
+      <div className={"welcome-info"}>
         Hi Tori, <br /> <br />
         ich habe hier etwas für dich zusammengebastelt, dass dich interessieren
-        könnte. <br />
-        Das hier ist eine Art Adventskalender für den Valentinstag. Jeden Tag
-        öffnet sich ein Türchen und offenbart etwas über mich — quality time
-        like.
+        könnte 🙂. <br />
+        Dies ist eine Art Adventskalender für den Valentinstag. Jeden Tag öffnet
+        sich ein Türchen und offenbart etwas über mich — quality time like.
         <br /> <br />
         Grüße <br /> <br />
         David
       </div>
-      <br />
+
       <ValentineCalendar data={CALENDAR_DATA} />
     </div>
   );

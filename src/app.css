@@ -1,5 +1,10 @@
-@import "tailwindcss";
+@reference "tailwindcss";
 
 #app {
   @apply mx-auto my-0 max-w-7xl p-8;
+}
+
+.welcome-info {
+  @apply rounded-xl p-8;
+  background-color: rgba(0, 0, 0, 0.4);
 }

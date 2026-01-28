@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 @font-face {
   font-family: Priestacy;
   src: url("./assets/fonts/Priestacy.otf");
