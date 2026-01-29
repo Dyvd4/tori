@@ -44,10 +44,10 @@ const CALENDAR_DATA: ValentineCalendarProps["data"] = [
   {
     date: new Date(),
     question: {
-      type: QuestionType.Memory,
-      text: "Wenn dein Leben ein Film wäre, welche Titel hätte er?",
+      type: QuestionType.Personal,
+      text: "Was unterscheidet dich komplett von allen anderen Personen im Raum?",
     },
-    answer: "American Psycho",
+    answer: "Das kannst du mir besser beantworten 😉.",
   },
   {
     date: new Date(),
