@@ -22,7 +22,7 @@ const CALENDAR_DATA: ValentineCalendarProps["data"] = [
       text: "Über welche Dinge interressiert sich die Person rechts neben dir am meisten?",
     },
     answer:
-      "Also wenn du doch rechts bist 😉, dann versuche ich es mal 😬: Motorräder, Autos, deine Fische und Hundis, nicht Schule, deine Freunde und mich (ofc 😏).",
+      "Also wenn du doch rechts bist 😉, dann versuche ich es mal 😬: Motorräder, Autos, deine pookies; Fische und Hundis, nicht Schule, deine Freunde und mich (ofc 😏).",
   },
   {
     date: new Date(),
@@ -31,7 +31,7 @@ const CALENDAR_DATA: ValentineCalendarProps["data"] = [
       text: "Welches Getränk bestellt die Person links neben dir am häufigsten im Restaurant?",
     },
     answer:
-      "Wenn du doch wieder links bist 😉, dann folgendes: Dein superduper Kokos-Vanille-Shake (gibt's im Restaurant save nicht though).",
+      "Wenn du doch wieder links bist 😉, dann folgendes: Dein superduper Vanille-Hafermilch-Kokos-Shake (gibt's im Restaurant save nicht though).",
   },
   {
     date: new Date(),
