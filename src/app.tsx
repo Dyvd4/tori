@@ -37,7 +37,7 @@ const CALENDAR_DATA: ValentineCalendarProps["data"] = [
     date: new Date(),
     question: {
       type: QuestionType.Personal,
-      text: "Welche sind deine Top 3 Lieblingssongs von Platz 1 bis Platz 3?",
+      text: "Welche sind deine Top 3 Lieblingartists von Platz 1 bis Platz 3?",
     },
     answer: "Slipknot, Arctic Monkeys, Aynsley Lister",
   },
