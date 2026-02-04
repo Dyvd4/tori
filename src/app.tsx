@@ -47,7 +47,7 @@ const CALENDAR_DATA: ValentineCalendarProps["data"] = [
       type: QuestionType.Personal,
       text: "Was unterscheidet dich komplett von allen anderen Personen im Raum?",
     },
-    answer: "Das kannst du mir besser beantworten 😉.",
+    answer: "Du bist besser (Slay).",
   },
   {
     date: new Date(),
