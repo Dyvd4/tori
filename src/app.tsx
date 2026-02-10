@@ -88,7 +88,7 @@ const CALENDAR_DATA: ValentineCalendarProps["data"] = [
     date: new Date(),
     question: {
       type: QuestionType.Personal,
-      text: "Wenn du ein Jahr lanng auf eine Sache verzichten müsstest, was wäre am schwierigsten für dich?",
+      text: "Wenn du ein Jahr lang auf eine Sache verzichten müsstest, was wäre am schwierigsten für dich?",
     },
     answer: "Softdrinks (zero ofc 😊).",
   },
